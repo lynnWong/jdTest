@@ -1,0 +1,127 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="src/images/jd_logo.ico">
+
+<title>京东搜索页面测试</title>
+<link href="src/css/userSearch.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="search-main">
+		<div class="search-title">
+			<h1>
+				手机<strong>商品筛选</strong>
+			</h1>
+			<div class="total">
+				<span>(共<strong>29998</strong>个商品)
+				</span>
+			</div>
+		</div>
+		<div class="search-filter">
+			<div class="prop-attrs brands">
+				<div class="attr">
+					<div class="a-key">品牌：</div>
+					<div class="a-values">
+						<div class="hide">
+							<input type="text" id="brand-search">
+						</div>
+						<div class="search-option">
+							<span class="o-more">更多 <i class="o-more-icon"></i></span><span
+								class="o-multiple"><i class="o-multiple-icon"></i>多选</span>
+						</div>
+						<div class="search-tabs">
+							<ul class="hide">
+								<!-- 检索条件 -->
+								<li class="curr">所有品牌<b></b></li>
+							</ul>
+							<div class="tabcon show-logo">
+								<!-- 品牌数据 -->
+							</div>
+						</div>
+						<div class="v-btns">
+							<a class="btn-red disabled">确定</a> <a class="btn-gray">取消</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="prop-attrs price">
+				<div class="attr">
+					<div class="a-key">价格：</div>
+					<div class="a-values">
+						<div class="v-fold">
+							<ul class="f-list">
+								<!-- 价格数据 -->
+							</ul>
+							<div class="pr">
+								<input type="text" class="price-range" title="最低价">- <input
+									type="text" class="price-range" title="最高价"> <a
+									class="btn-price-range btn-gray">确定</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="prop-attrs webs">
+				<div class="attr">
+					<div class="a-key">网络：</div>
+					<div class="a-values">
+						<div class="v-fold">
+							<ul class="f-list">
+								<!-- 运营商 -->
+							</ul>
+						</div>
+						<div class="search-option">
+							<span class="o-more">更多 <i class="o-more-icon"></i></span><span
+								class="o-multiple"><i class="o-multiple-icon"></i>多选</span>
+						</div>
+						<div class="v-btns">
+							<a class="btn-red disabled">确定</a> <a class="btn-gray">取消</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="prop-attrs comments">
+				<div class="attr">
+					<div class="a-key">大家说：</div>
+					<div class="a-values">
+						<div class="v-fold">
+							<ul class="f-list">
+								<li><a>配置高</a></li>
+							</ul>
+						</div>
+						<div class="search-option">
+							<span class="o-more">更多 <i class="o-more-icon"></i></span><span
+								class="o-multiple"><i class="o-multiple-icon"></i>多选</span>
+						</div>
+						<div class="v-btns">
+							<a class="btn-red disabled">确定</a> <a class="btn-gray">取消</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="more-btns">
+			<div class="attr-extra">
+				<div>更多选项（屏幕尺寸，系统，特点，机身颜色）</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<script src="lib/jquery-2.0.3.min.js" type="text/javascript"></script>
+	<script src="lib/sea.js" type="text/javascript"></script>
+	<script type="text/javascript">
+        (function() {
+            seajs.use("./src/scripts/userSearch", function(Models, extend) {
+                Models.run();
+            });
+        }());
+    </script>
+
+</body>
+</html>

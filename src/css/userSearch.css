@@ -1,0 +1,375 @@
+div.search-main {
+	margin: 10px;
+	color: #666;
+	font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+}
+
+div.search-main .hide {
+	display: none;
+}
+
+div.search-title {
+	height: 30px;
+	padding: 0 10px;
+	border: 1px solid #ddd;
+	border-bottom: none;
+	background: #F7F7F7;
+	line-height: 30px;
+}
+
+.search-title>h1 {
+	height: 30px;
+	font: normal 15px/30px \5fae\8f6f\96c5\9ed1;
+	color: #E4393C;
+	display: inline;
+}
+
+.search-title>h1>strong {
+	margin-left: 0.5em;
+	font: normal 15px/30px \5fae\8f6f\96c5\9ed1;
+	color: #333;
+}
+
+ul.f-list {
+	float: left;
+	width: auto;
+	min-height: 20px;
+	list-style: none;
+	margin: 0px;
+}
+
+ul.f-list>li {
+	float: left;
+	height: 20px;
+	margin-right: 32px;
+	padding-top: 5px;
+	list-style: none;
+	display: list-item;
+}
+
+ul.f-list>li>a {
+	float: left;
+	height: 15px;
+	line-height: 14px;
+	text-decoration: none;
+	overflow: hidden;
+	white-space: nowrap;
+	font-family: verdana;
+	color: #005aa0;
+	cursor: pointer;
+}
+
+ul.f-list>li>a:hover {
+	color: red;
+}
+
+.search-title>div.total {
+	margin-left: 0.5em;
+	display: inline;
+	color: #999;
+}
+
+.search-title>div.total strong {
+	font-weight: normal;
+	color: #E4393C;
+}
+
+.search-filter {
+	border: 1px solid #ddd;
+	border-top: none;
+	border-bottom: none;
+	position: relative;
+}
+
+.search-filter>.prop-attrs {
+	margin: 0px auto;
+	padding: 10px 5% 10px 5%;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+}
+
+.prop-attrs>.attr>div {
+	display: inline-block;
+}
+
+.prop-attrs>.attr>div.a-key {
+	font-weight: bold;
+	line-height: 25px;
+	font-size: 15px;
+	color: #666;
+	display: inline-block;
+	float: left;
+	width: 100px;
+	text-align: right;
+}
+
+}
+div.a-values {
+	width: 80%;
+}
+
+div.a-values>div.search-option {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+div.search-option>span {
+	height: 20px;
+	line-height: 21px\9;
+	text-decoration: none;
+	cursor: pointer;
+	color: #005AA0;
+	font-size: 15px;
+	margin-right: 15px;
+}
+
+i .o-more-icon {
+	position: absolute;
+	left: 32px;
+	top: 8px;
+	overflow: hidden;
+	width: 7px;
+	height: 5px;
+	background: url(../images/2013100702.gif) no-repeat;
+}
+
+span.o-multiple {
+	padding: 2px;
+	padding-left: 12px;
+	width: 28px;
+	height: 18px;
+	border: 1px solid #ddd;
+	background: #F7F7F7;
+	width: 28px;
+}
+
+i.o-multiple-icon {
+	position: absolute;
+	top: 5px;
+	right: 48px;
+	overflow: hidden;
+	width: 10px;
+	height: 10px;
+	background: url(../images/2013100701.gif) no-repeat;
+}
+
+div.search-tabs ul {
+	text-decoration: none;
+	widht: 80%;
+}
+
+.search-tabs ul {
+	display: block;
+	height: 28px;
+	padding-top: 2px;
+	list-style: none;
+}
+
+.search-tabs ul li {
+	padding: 3px 6px;
+	margin-right: 6px;
+	float: left;
+	height: 14px;
+	margin-right: 2px;
+	padding: 3px 5px;
+	line-height: 12px;
+	cursor: pointer;
+	font-family: verdana, \5b8b\4f53;
+	color: #005EA7;
+	text-align: center;
+	display: list-item;
+	list-style: none;
+}
+
+.search-tabs ul li:hover {
+	position: relative;
+	background: #4598d2;
+	color: #fff;
+	zoom: 1;
+}
+
+.search-tabs ul li:hover>b {
+	position: absolute;
+	left: 50%;
+	bottom: -10px;
+	overflow: hidden;
+	width: 0px;
+	height: 0px;
+	border-width: 5px;
+	border-style: solid dashed dashed;
+	border-color: #4598D2 transparent transparent;
+	margin-left: -4px;
+}
+
+.search-tabs ul li.curr {
+	position: relative;
+	background: #4598d2;
+	color: #fff;
+	zoom: 1;
+}
+
+.search-tabs ul li.curr>b {
+	position: absolute;
+	left: 50%;
+	bottom: -10px;
+	overflow: hidden;
+	width: 0px;
+	height: 0px;
+	border-width: 5px;
+	border-style: solid dashed dashed;
+	border-color: #4598D2 transparent transparent;
+	margin-left: -4px;
+}
+
+div.tabcon.show-logo {
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 100px;
+	padding: 10px 0 0 10px;
+	margin-bottom: 10px;
+	zoom: 1;
+}
+
+div.s-brand-infor {
+	width: 104px;
+	height: 38px;
+	border: 1px solid #ddd;
+	margin: 0px -1px -1px 0px;
+	background: #fff;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	olverflow: hidden;
+	padding: 0;
+	line-height: 36px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	zoom: 1;
+	font-size: 0;
+}
+
+div.s-brand-infor:hover {
+	color: red;
+	border: 2px solid red;
+	font-size: 5px;
+	width: 101px;
+	margin: -1px 0px -1px 0px;
+	height: 36px;
+	line-height: 32px;
+}
+
+div.s-brand-infor:hover>a {
+	color: red;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+div.s-brand-infor:hover>a>img {
+	color: red;
+	display: none;
+	width: 0px;
+}
+
+div.a-values {
+	width: 80%;
+}
+
+div.more-btns {
+	position: relative;
+	overflow: visible;
+	height: 0;
+	border-bottom: none;
+	margin-bottom: 34px;
+	_margin-bottom: 10px;
+	text-align: center;
+	font-size: 0;
+}
+
+div.more-btns>div.attr-extra {
+	position: relative;
+	display: inline-block;
+	height: 26px;
+	border: 1px solid #ddd;
+	border-top: none;
+	margin-top: -2px;
+	background: #fff;
+	line-height: 26px;
+	text-align: right;
+	padding-left: 5px;
+	padding-right: 5px;
+	cursor: pointer;
+	font-size: 12px;
+}
+
+div.search-main div.more-btns>div.attr-extra-up {
+	
+}
+
+div.prop-attrs.price input {
+	width: 40px;
+	margin-right: 3px;
+}
+
+a.btn-price-range {
+	cursor: pointer;
+	text-decoration: none;
+	padding: 3px 9px 4px;
+	border: 1px solid #ddd;
+	background: #f7f7f7;
+	text-decoration: none;
+}
+
+div.multiple-eidting {
+	border: 1px solid #EDD28B;
+	margin: 0 -1px -1px;
+	background: #FFFDEE;
+}
+
+div.multiple-eidting li>a {
+	padding-left: 18px;
+	background: url(../images/20130606B.png) no-repeat -70px 1px;
+}
+
+div.multiple-eidting li>a.select {
+	background: url(../images/20130606B.png) no-repeat -70px -13px;
+}
+
+div.v-btns {
+	display: none;
+	margin: 0 auto;
+	padding: 10px 0;
+	width: 150px;
+}
+
+div.v-btns>a {
+	padding: 5px 15px 6px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+div.search-main div.v-btns>a.disabled {
+	padding: 4px 13px 5px;
+	border: 1px solid #ddd;
+	background: #fff;
+	cursor: default;
+	color: #ccc;
+}
+
+div.v-btns>a.btn-red {
+	color: #fff;
+	background: #e74649;
+}
+
+div.v-btns>a.btn-gray {
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	margin-top: 0;
+	background: #f7f7f7;
+	text-align: center;
+	text-decoration: none;
+	color: #333;
+}
